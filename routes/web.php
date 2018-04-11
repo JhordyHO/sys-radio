@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('admin','AdminController@AdminCon');
+Route::get('usuario','UduarioController@UsuarioCon');
+Route::get('horario','HomeController@horario');
