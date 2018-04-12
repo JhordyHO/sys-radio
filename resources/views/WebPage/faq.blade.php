@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:52 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:55 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -42,7 +42,7 @@
 <nav id="off-canvas-menu" >
     <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
     <ul class="expander-list">
-        <li> <span class="name"><span class="expander">-</span> <a href="{{url('djs')}}">Djs</a></span>
+        <li> <span class="name"><span class="expander">-</span> <a href="djs.html">Djs</a></span>
             <ul>
                 <li><span class="name"><a href="#">Djs Submenu#1</a></span> </li>
                 <li><span class="name"><a href="#">Djs Submenu#2</a></span> </li>
@@ -50,7 +50,7 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
+        <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
         <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
         <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
@@ -132,13 +132,13 @@
                             </ul>
                             </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main active">Horarios</a> </dt>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">horarios</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main">FAQ</a> </dt>
+                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main active">FAQ</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">contáctanos</a> </dt>
                             <dd></dd>
@@ -154,8 +154,7 @@
                         <div class="nav-item item-02"><a href="#"></a></div>
                         <div class="nav-item item-03"><a href="#"></a></div>
                         <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
-                            <div class="tab-content">
-                                <!-- Search -->
+                            <div class="tab-content"> <!-- Search -->
                                 <form class="navbar-search form-inline" role="form">
                                     <div class="form-group">
                                         <button type="submit" class="button"><span class="flaticon-search"></span></button>
@@ -189,7 +188,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Schedule</div>
+            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Frequently Asked Questions</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -219,134 +218,30 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1>Our DJs</h1>
-                <div role="tabpanel">
-
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab" id="tabLink-1">Monday</a></li>
-                        <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab" id="tabLink-2">Tuesday</a></li>
-                        <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab" id="tabLink-3">Wednesday</a></li>
-                        <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab" id="tabLink-4">Thursday</a></li>
-                        <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab" id="tabLink-5">Friday</a></li>
-                        <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab" id="tabLink-6">Saturday</a></li>
-                        <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab" id="tabLink-7">Sunday</a></li>
-                    </ul>
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="tab1">
-                            <div id="tab-player">
-                                <div id="jp_tab_1" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_1" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 2 -->
-                        <div role="tabpanel" class="tab-pane" id="tab2">
-                            <div id="tab-player">
-                                <div id="jp_tab_2" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_2" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 3 -->
-                        <div role="tabpanel" class="tab-pane" id="tab3">
-                            <div id="tab-player">
-                                <div id="jp_tab_3" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_3" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 4 -->
-                        <div role="tabpanel" class="tab-pane" id="tab4">
-                            <div id="tab-player">
-                                <div id="jp_tab_4" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_4" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 5 -->
-                        <div role="tabpanel" class="tab-pane" id="tab5">
-                            <div id="tab-player">
-                                <div id="jp_tab_5" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_5" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 6 -->
-                        <div role="tabpanel" class="tab-pane" id="tab6">
-                            <div id="tab-player">
-                                <div id="jp_tab_6" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_6" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 7 -->
-                        <div role="tabpanel" class="tab-pane" id="tab7">
-                            <div id="tab-player">
-                                <div id="jp_tab_7" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_7" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h1>frequently asked questions</h1>
+                <div class="faq-outer">
+                    <div class="faq-heading">Why doesn’t the radio station start right away when I click on the “Listen Live” link on LIVERADIO <span>Q</span></div>
+                    <div class="faq-body"> In order for us to stream our radio station on the website, we need to sell advertising to recover some of the hard costs. This includes selling a commercial that airs while the station stream is “loading” for you to hear. If you would rather skip the commercial, simply hit “skip”. If not, the station will start automatically after the commercial.</div>
+                </div>
+                <div class="faq-outer">
+                    <div class="faq-heading">In the past I was always able to access the “Listen Live” feature. Now however, I am not. Why?<span>Q</span></div>
+                    <div class="faq-body"> If you see a blank window appear when clicking on Listen Live, then your system is configured to block all ads from being served; thus you’re not able to access the feed. If this is the case, try bypassing the ad and going to the Listen Live page directly.</div>
+                </div>
+                <div class="faq-outer">
+                    <div class="faq-heading">Can I listen to LIVE RADIO on my iphone/ipod touch?<span>Q</span></div>
+                    <div class="faq-body"> JACK FM can be streamed on mobile devices using the WunderRadio app. The app is available on Android devices, iPhone/iPod Touch and Blackberry.</div>
+                </div>
+                <div class="faq-outer">
+                    <div class="faq-heading">Where can I find out more about upcoming programmes? <span>Q</span></div>
+                    <div class="faq-body"> A calendar listing of our upcoming programmes can be found here. For more information on each individual programme, please go to the SCHEDULE tab and select your favourite programming cluster. Also, sign up for our weekly eNewsletters to receive highlights of our upcoming guests and interviews.</div>
+                </div>
+                <div class="faq-outer">
+                    <div class="faq-heading">How do I search for podcasts and videos?<span>Q</span></div>
+                    <div class="faq-body"> Click on Podcast tab at the top of our website. Click on Find Podcast, and choose between a keyword search (for example, by guest or company) or other advanced criteria e.g. programme name, industry area, subject matter or audio/video.</div>
+                </div>
+                <div class="faq-outer">
+                    <div class="faq-heading">Can I download the podcast and embed it on my website? <span>Q</span></div>
+                    <div class="faq-body"> You may embed the podcast on your website, and we appreciate it if you could credit the podcast source to BFM. Our podcasts are solely for non-commercial use. Please refer to our Terms &amp; Conditions for more details on our media.</div>
                 </div>
             </div>
         </section>  <!-- Social navbar -->
@@ -465,9 +360,9 @@
 <script src="jplayer/jquery.jplayer.js"></script>
 <script src="jplayer/jplayer.playlist.js"></script>
 <script src="jplayer/header-playlist.js"></script>
-<script src="jplayer/schedule-playlist.js"></script>
+<script src="jplayer/top10-playlist.js"></script>
 <script src="js/liveradio.js"></script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:53 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:55 GMT -->
 </html>

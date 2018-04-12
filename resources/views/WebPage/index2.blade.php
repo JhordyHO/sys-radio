@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:29:50 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:59 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Tropi-k-n@</title>
+    <title>Live Radio Template</title>
     <link rel="shortcut icon" href="fav-dark.png" type="image/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
@@ -53,8 +53,8 @@
             </ul>
         </li>
         <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
-        <li><span class="name"><a href="{{url('blog')}}">Blog</a></span></li>
-        <li><span class="name"><a href="fallery.html">Galeria</a></span></li>
+        <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
+        <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>
     </ul>
@@ -119,7 +119,7 @@
                         <!-- //end Search -->
                         <!-- Main menu -->
                         <dl class="navbar-main-menu hidden-xs">
-                            <dt class="item"> <a href="{{url('')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
+                            <dt class="item"> <a href="{{url('welcome')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                             <dd></dd>
                             <dt class="item">
                             <ul class="sf-menu">
@@ -214,7 +214,7 @@
                                  data-elementdelay="0.1"
                                  data-endelementdelay="0.1"
                                  data-endspeed="300"
-                                 style="z-index: 1; max-width: auto; max-height: auto; white-space: nowrap;"><span>LA MEJOR MUSICA </span></div>
+                                 style="z-index: 1; max-width: auto; max-height: auto; white-space: nowrap;"><span>WE ARE MUSIC </span></div>
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption text2 sfr"
@@ -1009,7 +1009,7 @@
 
         <section>
             <div class="animate fadeUp">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.9765988518657!2d-73.82746320816008!3d-12.51770917048834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910d3d6901840c29%3A0x15ab00ce6f5a2103!2sADES!5e0!3m2!1ses!2spe!4v1522805259781" ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6115.684863819771!2d-82.9719195443651!3d39.96727545833253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3846176f3dff5ed!2sLa+Aurora!5e0!3m2!1sen!2sus!4v1416911994304" class="google-map-full"></iframe>
             </div>
         </section>
         <!-- Footer -->
@@ -1178,5 +1178,5 @@
 </script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:34 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:59 GMT -->
 </html>

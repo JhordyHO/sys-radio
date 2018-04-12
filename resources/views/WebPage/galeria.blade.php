@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:52 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:59 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Live Radio Template</title>
+    <title>Tropi-k-n@</title>
     <link rel="shortcut icon" href="fav-dark.png" type="image/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/sfmenu.css" rel="stylesheet">
     <link href="css/jquery.mCustomScrollbar-dark.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="jplayer/skin/liveradio/css/jplayer.liveradio-dark.css" rel="stylesheet" />
     <link href="fonts/flaticon-liveradio/flaticon.css" rel="stylesheet">
 </head>
@@ -42,7 +43,7 @@
 <nav id="off-canvas-menu" >
     <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
     <ul class="expander-list">
-        <li> <span class="name"><span class="expander">-</span> <a href="{{url('djs')}}">Djs</a></span>
+        <li> <span class="name"><span class="expander">-</span> <a href="djs.html">Djs</a></span>
             <ul>
                 <li><span class="name"><a href="#">Djs Submenu#1</a></span> </li>
                 <li><span class="name"><a href="#">Djs Submenu#2</a></span> </li>
@@ -50,9 +51,9 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
+        <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
         <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
-        <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
+        <li><span class="name"><a href="fallery.html">GALERIA</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>
     </ul>
@@ -132,11 +133,11 @@
                             </ul>
                             </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main active">Horarios</a> </dt>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
+                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main active">galería</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('faq')}}" class="btn-main">FAQ</a> </dt>
                             <dd></dd>
@@ -154,8 +155,7 @@
                         <div class="nav-item item-02"><a href="#"></a></div>
                         <div class="nav-item item-03"><a href="#"></a></div>
                         <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
-                            <div class="tab-content">
-                                <!-- Search -->
+                            <div class="tab-content"> <!-- Search -->
                                 <form class="navbar-search form-inline" role="form">
                                     <div class="form-group">
                                         <button type="submit" class="button"><span class="flaticon-search"></span></button>
@@ -189,7 +189,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Schedule</div>
+            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Gallery</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -219,135 +219,49 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1>Our DJs</h1>
-                <div role="tabpanel">
-
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab" id="tabLink-1">Monday</a></li>
-                        <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab" id="tabLink-2">Tuesday</a></li>
-                        <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab" id="tabLink-3">Wednesday</a></li>
-                        <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab" id="tabLink-4">Thursday</a></li>
-                        <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab" id="tabLink-5">Friday</a></li>
-                        <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab" id="tabLink-6">Saturday</a></li>
-                        <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab" id="tabLink-7">Sunday</a></li>
+                <h1>Gallery</h1>
+                <div class="filters-by-category text-center">
+                    <ul class="option-set" data-option-key="filter">
+                        <li><a href="#filter" data-option-value="*" class="selected">all events</a></li>
+                        <li><a href="#filter" data-option-value=".category1">event 10.01.2015</a></li>
+                        <li><a href="#filter" data-option-value=".category2" class="">event 12.01.2015</a></li>
+                        <li><a href="#filter" data-option-value=".category3" class="">event 14.01.2015</a></li>
+                        <li><a href="#filter" data-option-value=".category4" class="">event 17.01.2015</a></li>
                     </ul>
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="tab1">
-                            <div id="tab-player">
-                                <div id="jp_tab_1" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_1" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 2 -->
-                        <div role="tabpanel" class="tab-pane" id="tab2">
-                            <div id="tab-player">
-                                <div id="jp_tab_2" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_2" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 3 -->
-                        <div role="tabpanel" class="tab-pane" id="tab3">
-                            <div id="tab-player">
-                                <div id="jp_tab_3" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_3" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 4 -->
-                        <div role="tabpanel" class="tab-pane" id="tab4">
-                            <div id="tab-player">
-                                <div id="jp_tab_4" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_4" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 5 -->
-                        <div role="tabpanel" class="tab-pane" id="tab5">
-                            <div id="tab-player">
-                                <div id="jp_tab_5" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_5" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 6 -->
-                        <div role="tabpanel" class="tab-pane" id="tab6">
-                            <div id="tab-player">
-                                <div id="jp_tab_6" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_6" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 7 -->
-                        <div role="tabpanel" class="tab-pane" id="tab7">
-                            <div id="tab-player">
-                                <div id="jp_tab_7" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_7" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div class="gallery">
+                    <div class="item category3"> <a href="images/gallery/image-big.jpg" class="img-popup"><img src="images/gallery/gallery-thumb.jpg"  alt=""/></a> </div>
+                    <div class="item category1 category3"> <a href="images/gallery/image-big-02.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-02.jpg"  alt=""/> </a> </div>
+                    <div class="item category2"> <a href="images/gallery/image-big-03.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-03.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category1"> <a href="images/gallery/image-big-04.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-04.jpg"  alt=""/> </a> </div>
+                    <div class="item category3 category1"> <a href="images/gallery/image-big-05.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-05.jpg"  alt=""/> </a> </div>
+                    <div class="item category1"> <a href="images/gallery/image-big-06.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-06.jpg"  alt=""/> </a> </div>
+                    <div class="item category3 category2"> <a href="images/gallery/image-big-07.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-07.jpg"  alt=""/> </a> </div>
+                    <div class="item category2"> <a href="images/gallery/image-big-08.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-08.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category1"> <a href="images/gallery/image-big-09.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-09.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category2"> <a href="images/gallery/image-big-10.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-10.jpg"  alt=""/> </a> </div>
+                    <div class="item category1"> <a href="images/gallery/image-big-11.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-11.jpg"  alt=""/> </a> </div>
+                    <div class="item category3"> <a href="images/gallery/image-big-12.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-12.jpg"  alt=""/> </a> </div>
+                    <div class="item category2"> <a href="images/gallery/image-big-13.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-13.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category3"> <a href="images/gallery/image-big-14.jpg" class="img-popup"> <img src="images/gallery/gallery-thumb-14.jpg"  alt=""/> </a> </div>
+                    <div class="item category1"> <a href="images/gallery/image-big-15.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-15.jpg"  alt=""/> </a> </div>
+                    <div class="item category3 category1"> <a href="images/gallery/image-big-16.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-16.jpg"  alt=""/> </a> </div>
+                    <div class="item category2 category1"> <a href="images/gallery/image-big-17.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-17.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category2"> <a href="images/gallery/image-big-18.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-18.jpg"  alt=""/> </a> </div>
+                    <div class="item category2"> <a href="images/gallery/image-big-19.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-19.jpg"  alt=""/> </a> </div>
+                    <div class="item category1"> <a href="images/gallery/image-big-20.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-20.jpg"  alt=""/> </a> </div>
+                    <div class="item category3 category2"> <a href="images/gallery/image-big-21.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-21.jpg"  alt=""/> </a> </div>
+                    <div class="item category2 category3"> <a href="images/gallery/image-big-22.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-22.jpg"  alt=""/> </a> </div>
+                    <div class="item category4"> <a href="images/gallery/image-big-23.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-23.jpg"  alt=""/> </a> </div>
+                    <div class="item category3"> <a href="images/gallery/image-big-24.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-24.jpg"  alt=""/> </a> </div>
+                    <div class="item category1 category2"> <a href="images/gallery/image-big-25.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-25.jpg"  alt=""/> </a> </div>
+                    <div class="item category3"> <a href="images/gallery/image-big-26.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-26.jpg"  alt=""/> </a> </div>
+                    <div class="item category2"> <a href="images/gallery/image-big-27.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-27.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category3"> <a href="images/gallery/image-big-28.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-28.jpg"  alt=""/> </a> </div>
+                    <div class="item category4 category1"> <a href="images/gallery/image-big-29.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-29.jpg"  alt=""/> </a> </div>
+                    <div class="item category2 category3"> <a href="images/gallery/image-big-30.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-30.jpg"  alt=""/> </a> </div>
+                </div>
+                <div class="text-center"><a href="#" class="btn btn-default btn-lg">MORE Photos</a></div>
             </div>
         </section>  <!-- Social navbar -->
         <section class="content nopad-xs grey-box">
@@ -461,13 +375,14 @@
 <script src="js/jquery.inview.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/supersubs.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
 <script src="jplayer/jquery.jplayer.js"></script>
 <script src="jplayer/jplayer.playlist.js"></script>
 <script src="jplayer/header-playlist.js"></script>
-<script src="jplayer/schedule-playlist.js"></script>
 <script src="js/liveradio.js"></script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:53 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:33:04 GMT -->
 </html>

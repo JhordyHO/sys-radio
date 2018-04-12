@@ -17,3 +17,9 @@ Route::get('/', function () {
 Route::get('admin','AdminController@AdminCon');
 Route::get('usuario','UduarioController@UsuarioCon');
 Route::get('horario','HomeController@horario');
+Route::get('djs','HomeController@djs');
+Route::get('welcome','HomeController@index2');
+Route::get('blog','HomeController@blog');
+Route::get('galeria','HomeController@galeria');
+Route::get('faq','HomeController@faq');
+Route::get('contacto','HomeController@contacto');

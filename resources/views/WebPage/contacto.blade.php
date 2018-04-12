@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:52 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:55 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -42,7 +42,7 @@
 <nav id="off-canvas-menu" >
     <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
     <ul class="expander-list">
-        <li> <span class="name"><span class="expander">-</span> <a href="{{url('djs')}}">Djs</a></span>
+        <li> <span class="name"><span class="expander">-</span> <a href="djs.html">Djs</a></span>
             <ul>
                 <li><span class="name"><a href="#">Djs Submenu#1</a></span> </li>
                 <li><span class="name"><a href="#">Djs Submenu#2</a></span> </li>
@@ -50,7 +50,7 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
+        <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
         <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
         <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
@@ -120,6 +120,7 @@
                             <dt class="item"> <a href="{{url('welcome')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                             <dd></dd>
                             <dt class="item">
+
                             <ul class="sf-menu">
                                 <li> <a href="{{url('djs')}}">Djs</a>
                                     <ul>
@@ -132,7 +133,7 @@
                             </ul>
                             </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main active">Horarios</a> </dt>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">horarios</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
                             <dd></dd>
@@ -140,7 +141,7 @@
                             <dd></dd>
                             <dt class="item"> <a href="{{url('faq')}}" class="btn-main">FAQ</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">contáctanos</a> </dt>
+                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main active">contáctanos</a> </dt>
                             <dd></dd>
                         </dl>
                         <!-- //end Main menu -->
@@ -154,8 +155,7 @@
                         <div class="nav-item item-02"><a href="#"></a></div>
                         <div class="nav-item item-03"><a href="#"></a></div>
                         <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
-                            <div class="tab-content">
-                                <!-- Search -->
+                            <div class="tab-content"> <!-- Search -->
                                 <form class="navbar-search form-inline" role="form">
                                     <div class="form-group">
                                         <button type="submit" class="button"><span class="flaticon-search"></span></button>
@@ -189,7 +189,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Schedule</div>
+            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Contacts</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -219,133 +219,62 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1>Our DJs</h1>
-                <div role="tabpanel">
-
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab" id="tabLink-1">Monday</a></li>
-                        <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab" id="tabLink-2">Tuesday</a></li>
-                        <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab" id="tabLink-3">Wednesday</a></li>
-                        <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab" id="tabLink-4">Thursday</a></li>
-                        <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab" id="tabLink-5">Friday</a></li>
-                        <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab" id="tabLink-6">Saturday</a></li>
-                        <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab" id="tabLink-7">Sunday</a></li>
-                    </ul>
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="tab1">
-                            <div id="tab-player">
-                                <div id="jp_tab_1" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_1" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
+                <h1>Contacts</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="map animate fadeUp">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6115.684863819771!2d-82.9719195443651!3d39.96727545833253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3846176f3dff5ed!2sLa+Aurora!5e0!3m2!1sen!2sus!4v1416911994304" class="google-map"></iframe>
+                        </div>
+                        <div class="divider-sm"></div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-5"><img src="images/liveradio/logo-dark.png" alt="" class="img-responsive" /></div>
+                        </div>
+                        <div class="divider-sm"></div>
+                        <ul class="contacts-list">
+                            <li><span class="icon flaticon-home"></span> 7563 St. Vincent Place, Glasgow</li>
+                            <li><span class="icon flaticon-phone"></span> 321321321, 321321321</li>
+                            <li><span class="icon flaticon-mail"></span> <a href="#">info@mydomain.com</a></li>
+                            <li><span class="icon flaticon-skype"></span> <a href="#">shop.test</a></li>
+                        </ul>
+                        <div class="divider-lg"></div>
+                        <div class="divider-md"></div>
+                        <h3>Send Message </h3>
+                        <div class="divider-xs"></div>
+                        <form id="form-contact" method="post" novalidate>
+                            <div class="comment-form row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="InputName">Your name:<span class="required">*</span></label>
+                                        <input type="text" id="InputName" class="form-control">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- TAB 2 -->
-                        <div role="tabpanel" class="tab-pane" id="tab2">
-                            <div id="tab-player">
-                                <div id="jp_tab_2" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_2" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="InputEmail">Your e-mail:</label>
+                                        <input type="text" id="InputEmail" class="form-control">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- TAB 3 -->
-                        <div role="tabpanel" class="tab-pane" id="tab3">
-                            <div id="tab-player">
-                                <div id="jp_tab_3" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_3" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
+                                <div class="col-md-12">
+                                    <div class="form-group"> <span class="icon icon-bubbles-2"></span>
+                                        <label for="InputComment">Comment:<span class="required">*</span></label>
+                                        <textarea class="form-control" id="InputComment"></textarea>
                                     </div>
+                                    <div class="row form-inline">
+                                        <div class="col-md-3 col-lg-3"><img src="images/capcha.png" alt=""/>
+                                            <div class="divider-sm visible-xs"></div>
+                                        </div>
+                                        <div class="col-md-8 col-lg-9">
+                                            <label for="InputCapcha">Verification&nbsp;&nbsp;</label>
+                                            <input type="text" id="InputCapcha" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="divider-sm"></div>
+                                    <button type="submit" class="btn btn-default">Send Message</button>
                                 </div>
                             </div>
-                        </div>
-                        <!-- TAB 4 -->
-                        <div role="tabpanel" class="tab-pane" id="tab4">
-                            <div id="tab-player">
-                                <div id="jp_tab_4" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_4" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 5 -->
-                        <div role="tabpanel" class="tab-pane" id="tab5">
-                            <div id="tab-player">
-                                <div id="jp_tab_5" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_5" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 6 -->
-                        <div role="tabpanel" class="tab-pane" id="tab6">
-                            <div id="tab-player">
-                                <div id="jp_tab_6" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_6" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 7 -->
-                        <div role="tabpanel" class="tab-pane" id="tab7">
-                            <div id="tab-player">
-                                <div id="jp_tab_7" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_7" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -461,13 +390,54 @@
 <script src="js/jquery.inview.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/supersubs.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
 <script src="jplayer/jquery.jplayer.js"></script>
 <script src="jplayer/jplayer.playlist.js"></script>
 <script src="jplayer/header-playlist.js"></script>
-<script src="jplayer/schedule-playlist.js"></script>
 <script src="js/liveradio.js"></script>
+<script src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+<script src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+<script type="text/javascript">
+    $("body").on("click", "#refreshimg", function(){
+        $.post("captcha/newsession.html");
+        $("#captchaimage").load("captcha/image_req.html");
+        return false;
+    });
+    //validate book form
+    $(function() {
+        $('#form-appointment').validate({
+            rules: {
+                captcha: {
+                    required: true,
+                    remote: "captcha/process.php"
+                }
+            },
+            messages: {
+                captcha: "Captcha is not correct."
+            },
+            submitHandler: function(form) {
+                $(form).ajaxSubmit({
+                    type:"POST",
+                    data: $(form).serialize(),
+                    url:"process-contact.php",
+                    success: function() {
+                        $('#success').fadeIn();
+                        $('label.error').each(function(){this.fadeOut();});
+                        $( '#form-appointment').each(function(){this.reset();});
+                    },
+                    error: function() {
+                        $('#form-appointment').fadeTo( "slow", 0, function() {
+                            $('#error').fadeIn();
+                        });
+                    }
+                });
+            }
+        });
+    });
+</script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:53 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:59 GMT -->
 </html>

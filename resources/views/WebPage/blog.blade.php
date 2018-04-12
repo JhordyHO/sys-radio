@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:52 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/blog-posts.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:53 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -22,6 +22,7 @@
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/sfmenu.css" rel="stylesheet">
     <link href="css/jquery.mCustomScrollbar-dark.css" rel="stylesheet" />
+    <link href="css/timeline.css" rel="stylesheet" />
     <link href="jplayer/skin/liveradio/css/jplayer.liveradio-dark.css" rel="stylesheet" />
     <link href="fonts/flaticon-liveradio/flaticon.css" rel="stylesheet">
 </head>
@@ -42,7 +43,7 @@
 <nav id="off-canvas-menu" >
     <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
     <ul class="expander-list">
-        <li> <span class="name"><span class="expander">-</span> <a href="{{url('djs')}}">Djs</a></span>
+        <li> <span class="name"><span class="expander">-</span> <a href="djs.html">Djs</a></span>
             <ul>
                 <li><span class="name"><a href="#">Djs Submenu#1</a></span> </li>
                 <li><span class="name"><a href="#">Djs Submenu#2</a></span> </li>
@@ -50,7 +51,7 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
+        <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
         <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
         <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
@@ -120,6 +121,7 @@
                             <dt class="item"> <a href="{{url('welcome')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                             <dd></dd>
                             <dt class="item">
+
                             <ul class="sf-menu">
                                 <li> <a href="{{url('djs')}}">Djs</a>
                                     <ul>
@@ -132,9 +134,9 @@
                             </ul>
                             </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main active">Horarios</a> </dt>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
+                            <dt class="item"> <a href="{{url('blog')}}" class="btn-main active">BLOG</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
                             <dd></dd>
@@ -154,8 +156,7 @@
                         <div class="nav-item item-02"><a href="#"></a></div>
                         <div class="nav-item item-03"><a href="#"></a></div>
                         <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
-                            <div class="tab-content">
-                                <!-- Search -->
+                            <div class="tab-content"> <!-- Search -->
                                 <form class="navbar-search form-inline" role="form">
                                     <div class="form-group">
                                         <button type="submit" class="button"><span class="flaticon-search"></span></button>
@@ -189,7 +190,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Schedule</div>
+            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Blog Posts</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -219,134 +220,113 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1>Our DJs</h1>
-                <div role="tabpanel">
-
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab" id="tabLink-1">Monday</a></li>
-                        <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab" id="tabLink-2">Tuesday</a></li>
-                        <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab" id="tabLink-3">Wednesday</a></li>
-                        <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab" id="tabLink-4">Thursday</a></li>
-                        <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab" id="tabLink-5">Friday</a></li>
-                        <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab" id="tabLink-6">Saturday</a></li>
-                        <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab" id="tabLink-7">Sunday</a></li>
-                    </ul>
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="tab1">
-                            <div id="tab-player">
-                                <div id="jp_tab_1" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_1" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
+                <h2>Blog Posts</h2>
+            </div>
+            <div id="cd-timeline" class="cd-container">
+                <div class="container">
+                    <div class="cd-timeline-block  animate fadeInLeft">
+                        <div class="cd-timeline-date"> <span class="month">April</span> <span class="day">24</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-1.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- TAB 2 -->
-                        <div role="tabpanel" class="tab-pane" id="tab2">
-                            <div id="tab-player">
-                                <div id="jp_tab_2" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_2" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
                             </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
                         </div>
-                        <!-- TAB 3 -->
-                        <div role="tabpanel" class="tab-pane" id="tab3">
-                            <div id="tab-player">
-                                <div id="jp_tab_3" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_3" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 4 -->
-                        <div role="tabpanel" class="tab-pane" id="tab4">
-                            <div id="tab-player">
-                                <div id="jp_tab_4" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_4" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 5 -->
-                        <div role="tabpanel" class="tab-pane" id="tab5">
-                            <div id="tab-player">
-                                <div id="jp_tab_5" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_5" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 6 -->
-                        <div role="tabpanel" class="tab-pane" id="tab6">
-                            <div id="tab-player">
-                                <div id="jp_tab_6" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_6" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TAB 7 -->
-                        <div role="tabpanel" class="tab-pane" id="tab7">
-                            <div id="tab-player">
-                                <div id="jp_tab_7" class="jp-jplayer"></div>
-                                <div id="jp_container_tab_7" class="jp-audio" role="application" aria-label="media player">
-                                    <div class="jp-type-playlist">
-                                        <div class="jp-playlist">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                        <div class="jp-no-solution"><span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- cd-timeline-content -->
                     </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block  animate fadeInRight">
+                        <div class="cd-timeline-date"> <span class="month">April</span> <span class="day">26</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-2.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
+                            </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block  animate fadeInLeft">
+                        <div class="cd-timeline-date"> <span class="month">May</span> <span class="day">04</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-3.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
+                            </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block  animate fadeInRight">
+                        <div class="cd-timeline-date"> <span class="month">May</span> <span class="day">10</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-4.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
+                            </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block  animate fadeInLeft">
+                        <div class="cd-timeline-date"> <span class="month">May</span> <span class="day">12</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-5.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
+                            </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block  animate fadeInRight">
+                        <div class="cd-timeline-date"> <span class="month">May</span> <span class="day">15</span> <span class="year">2015</span> </div>
+                        <div class="cd-timeline-content">
+                            <div class="wrapper">
+                                <div class="image-cell"><a href="blog-post.html"><img src="images/liveradio/img-blog-post-6.jpg" class="img-responsive animate scale animated" alt="" draggable="false"></a>
+                                    <div class="post-date"><span class="icon flaticon-clock"></span>&nbsp;May 19, 2015 - 3:55 PM MST by <a href="#" class="color">John Doe</a></div>
+                                    <div class="post-comment pull-right"><a href="#"><span class="icon flaticon-comment"></span>41</a><a href="#"><span class="icon flaticon-heart"></span>17</a></div>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3><a href="#">Single Post title example</a></h3>
+                            </div>
+                            <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vesti bulum eu, et ligula quis erat dignissim imperdiet. Integer ligula magna.</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+
                 </div>
             </div>
         </section>  <!-- Social navbar -->
@@ -467,7 +447,17 @@
 <script src="jplayer/header-playlist.js"></script>
 <script src="jplayer/schedule-playlist.js"></script>
 <script src="js/liveradio.js"></script>
+<script>
+    jQuery(function ($) {
+
+        "use strict";
+        $('.cd-timeline-content').hover(function (e) {
+            $(this).parent('.cd-timeline-block').toggleClass('under')
+        })
+
+    });
+</script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/schedule.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:53 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/blog-posts.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:55 GMT -->
 </html>
