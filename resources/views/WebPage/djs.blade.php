@@ -50,8 +50,8 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Schedule</a></span></li>
-        <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
+        <li><span class="name"><a href="{{url('horario')}}">Horarios</a></span></li>
+        <li><span class="name"><a href="{{url('noticias')}}">Noticias</a></span></li>
         <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>

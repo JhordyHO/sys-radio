@@ -15,8 +15,8 @@ class HomeController extends Controller
     public function index2(){
         return view('WebPage.index2');
     }
-    public function blog(){
-        return view('WebPage.blog');
+    public function noticias(){
+        return view('WebPage.noticias');
     }
     public function galeria(){
         return view('WebPage.galeria');

@@ -51,8 +51,8 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
-        <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
+        <li><span class="name"><a href="{{url('horario')}}">Horarios</a></span></li>
+        <li><span class="name"><a href="{{url('noticias')}}">Noticias</a></span></li>
         <li><span class="name"><a href="fallery.html">GALERIA</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>
@@ -135,7 +135,7 @@
                             <dd></dd>
                             <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
+                            <dt class="item"> <a href="{{url('noticias')}}" class="btn-main">Noticias</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('galeria')}}" class="btn-main active">galería</a> </dt>
                             <dd></dd>

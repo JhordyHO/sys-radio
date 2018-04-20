@@ -53,7 +53,7 @@
             </ul>
         </li>
         <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
-        <li><span class="name"><a href="blog-posts.html">Blog</a></span></li>
+        <li><span class="name"><a href="{{url('noticias)}}}">Noticias</a></span></li>
         <li><span class="name"><a href="fallery.html">Gallery</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>
@@ -136,7 +136,7 @@
                             <dd></dd>
                             <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('blog')}}" class="btn-main">BLOG</a> </dt>
+                            <dt class="item"> <a href="{{url('noticias')}}" class="btn-main">Noticias</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
                             <dd></dd>
@@ -847,7 +847,7 @@
         <!-- Blog widget -->
         <section class="blog-widget parallax">
             <div class="container content">
-                <h3><span class="icon flaticon-megaphone9"></span>&nbsp;From the BLOG</h3>
+                <h3><span class="icon flaticon-megaphone9"></span>NOTICIAS</h3>
                 <div class="posts flexslider">
                     <ul class="slides">
                         <li>
