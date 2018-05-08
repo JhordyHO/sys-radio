@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Tropi-k-n@</title>
-    <link rel="shortcut icon" href="fav-dark.png" type="image/png">
+    <link rel="shortcut icon" href="fav-dark.png" type="images/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -52,8 +52,8 @@
                 <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
             </ul>
         </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
         <li><span class="name"><a href="{{url('noticias')}}">Noticias</a></span></li>
+        <li><span class="name"><a href="{{url('horario')}}">Horario</a></span></li>
         <li><span class="name"><a href="fallery.html">Galeria</a></span></li>
         <li><span class="name"><a href="faq.html">FAQ</a></span></li>
         <li><span class="name"><a href="contacto.html">Contact</a></span></li>
@@ -108,41 +108,24 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Search -->
-                        <form class="navbar-search form-inline visible-lg visible-md pull-right" role="form">
-                            <div class="form-group">
-                                <button type="submit" class="button"><span class="flaticon-search"></span></button>
-                                <input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
-                            </div>
 
-                        </form>
-                        <!-- //end Search -->
-                        <!-- Main menu -->
+                        <!-- MENU NORMAL -->
                         <dl class="navbar-main-menu hidden-xs">
                             <dt class="item"> <a href="{{url('')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                             <dd></dd>
-                            <dt class="item">
-                            <ul class="sf-menu">
-                                <li> <a href="{{url('djs')}}">Djs</a>
-                                    <ul>
-                                        <li><a href="#">Djs Submenu # 1</a></li>
-                                        <li><a href="#">Djs Submenu # 2</a></li>
-                                        <li><a href="#">Djs Submenu # 3</a></li>
-                                        <li><a href="#">Djs Submenu # 4</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            </dt>
-                            <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
-                            <dd></dd>
                             <dt class="item"> <a href="{{url('noticias')}}" class="btn-main">Noticias</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Programacion</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main">FAQ</a> </dt>
+                            <dt class="item"> <a href="{{url('djs')}}" class="btn-main">Djs</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">contáctanos</a> </dt>
+                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main">Ranking</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">Galeria</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main">Nosotros</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">Contactanos</a> </dt>
                             <dd></dd>
                         </dl>
                         <!-- //end Main menu -->
@@ -721,7 +704,7 @@
             </div>
         </section>
 
-        <!-- //end Slider -->
+        <!-- //tres opciones lado derecho -->
 
         <!-- Social widgets -->
         <section class="social-widgets hidden-xs">
@@ -823,7 +806,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 animate fadeUp">
-                    <h2><span class="icon flaticon-instagramm color"></span>INSTAGRAM&nbsp;<span class="color"><span class="default-font">@</span>LIVERADIO</span></h2>
+                    <h2><span class="icon flaticon-instagramm color"></span>INSTAGRAM&nbsp;<span class="color"><span class="default-font">@</span>tropikanaradiotv</span></h2>
                     <div class="photos-small">
                         <div class="item"><a href="#" class="img-popup"><img src="images/photos/photo-small-01.jpg" alt=""/></a></div>
                         <div class="item"><a href="#" class="img-popup"><img src="images/photos/photo-small-02.jpg" alt=""/></a></div>
@@ -847,7 +830,7 @@
         <!-- Blog widget -->
         <section class="blog-widget parallax">
             <div class="container content">
-                <h3><span class="icon flaticon-megaphone9"></span>&nbsp;From the BLOG</h3>
+                <h3><span class="icon flaticon-megaphone9"></span>&nbsp;NOTICIAS</h3>
                 <div class="posts flexslider">
                     <ul class="slides">
                         <li>
@@ -897,7 +880,7 @@
                     <div class="col-sm-4 animate fadeUp info-box">
                         <div class="inside">
                             <div class="text">
-                                <h3>About <span class="color">LIVE RADIO</span></h3>
+                                <h3>ACERCA DE  <span class="color">TROPIKANA</span></h3>
                                 <p><img src="images/liveradio/about-img.png" alt="" class="img-left" /> <strong>Vestibulum justo. Nulla mauris ipsum vestibulum eunisi.</strong></p>
                                 <p>Curabitur molestie euismod erat. Proin eros odio, mattis rutrum, pulvinar et, egestas. Pell entesque<br>
                                     Integer semper, velit ut interdum malesuada, diam sem. Pellentesque adipiscing nisi. Nulla facilisi. Mauris lacinia lectus sit amet felis. Aliquam erat volutpat. Nulla porttitor tortor at nisl. </p>
@@ -909,7 +892,7 @@
                     <div class="col-sm-4 animate fadeUp info-box">
                         <div class="inside">
                             <div class="text">
-                                <h3>Latest News</h3>
+                                <h3>PUBLICA TU PUBLICIDAD</h3>
                                 <div class="news-carousel">
                                     <div class="news">
                                         <div class="image"><img src="images/liveradio/news-img-1.jpg" alt=""/></div>
@@ -929,9 +912,9 @@
                     <div class="col-sm-4 animate fadeUp info-box">
                         <div class="inside">
                             <div class="text">
-                                <h3>Radio Listeners Poll</h3>
+                                <h3>ENCUESTA DE RADIO EN VIVO </h3>
                                 <form role="form">
-                                    <p><strong>How often do you listen to Live Radio?</strong></p>
+                                    <p><strong>¿Con qué frecuencia escuchas Radio en vivo?</strong></p>
                                     <div class="radio">
                                         <label>
                                             <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
@@ -958,7 +941,7 @@
                                             Never</label>
                                     </div>
                                     <div class="divider-xs"></div>
-                                    <button class="btn btn-default">SUBMIT</button>
+                                    <button class="btn btn-default">ENVIAR</button>
                                     <div class="divider-xs"></div>
                                 </form>
                             </div>
@@ -976,10 +959,10 @@
                     <div class="col-sm-6 col-md-6  col-lg-6 newsletter collapsed-block">
                         <div class="row">
                             <div class="col-lg-5  col-md-12 col-sm-12 ">
-                                <h2 class="icon-title"><span class="icon flaticon-mail color"></span>NEWSLETTER SIGNUP <a class="expander visible-xs" href="#TabBlock-1">+</a></h2>
+                                <h2 class="icon-title"><span class="icon flaticon-mail color"></span>INSCRÍBASE AL BOLETÍN <a class="expander visible-xs" href="#TabBlock-1">+</a></h2>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 tabBlock" id="TabBlock-1">
-                                <p>Enter your email and we'll send you a coupon with 10% off your next order.</p>
+                                <p>Ingrese su correo electrónico y le enviaremos un cupón con un 10% de descuento en su próximo pedido.</p>
                                 <form class="form-inline" role="form">
                                     <div class="form-group input-control">
                                         <button type="submit" class="button"><span class="flaticon-mail-alt"></span></button>
@@ -990,15 +973,15 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6 collapsed-block">
-                        <h2><span class="icon flaticon-disc29 color"></span>FIND US ON<a class="expander visible-xs" href="#TabBlock-2">+</a></h2>
+                        <h2><span class="icon flaticon-disc29 color"></span>ENCUÉNTRANOS EN<a class="expander visible-xs" href="#TabBlock-2">+</a></h2>
                         <div  class="tabBlock" id="TabBlock-2">
                             <ul class="find-us">
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-facebook flaticon-facebook"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-twitter flaticon-twitter"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-linkedin flaticon-linkedin"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-youtube flaticon-youtube"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-pinterest flaticon-pinterest"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-gplus flaticon-gplus"></span></a></li>
+                                <li class="divider"><a href="https://www.facebook.com/Radio-Tropikana-Vrae-1025-FM-318964435227264/" class="animate-scale"><span class="icon icon-facebook flaticon-facebook"></span></a></li>
+                                <li class="divider"><a href="https://twitter.com/TropikanaT" class="animate-scale"><span class="icon icon-twitter flaticon-twitter"></span></a></li>
+                                <li class="divider"><a href="https://www.instagram.com/tropikanaradiotv/" class="animate-scale"><span class="icon icon-instagramm flaticon-instagramm"></span></a></li>
+                                <li class="divider"><a href="https://www.youtube.com/channel/UCHfl7optcRWSZKgPoLEqJVA" class="animate-scale"><span class="icon icon-youtube flaticon-youtube"></span></a></li>
+                                <li class="divider"><a href="https://www.pinterest.com/tropikanaradiotv/" class="animate-scale"><span class="icon icon-pinterest flaticon-pinterest"></span></a></li>
+                                <li class="divider"><a href="https://plus.google.com/u/0/103317885145608387111" class="animate-scale"><span class="icon icon-gplus flaticon-gplus"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1018,39 +1001,38 @@
                 <div class="container content nopad-xs">
                     <div class="row">
                         <div class="col-sm-3 col-md-3 col-lg-4 hidden-xs animate fadeUp">
-                            <div>&copy; 2015<a href="#"> Live Radio</a>. <span class="clearfix visible-sm"></span>All Rights Reserved.</div>
-                            <a href="#"><img src="images/liveradio/logo-footer-dark.png" alt="" class="img-responsive"/></a> </div>
+                            <div>&copy; 2018<a href="https://www.codsit.com"> Codsit</a>. <span class="clearfix visible-sm"></span>Todos los Derechos Reservados.</div>
+                            <a href="#"><img src="images/liveradio/logo-dark.gif" alt="" class="img-responsive"/></a> </div>
                         <div class="col-sm-9 col-md-9 col-lg-8 collapsed-block-outer">
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-info color"></span>Information<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
+                                <h4><span class="icon flaticon-info color"></span>Información<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-3">
                                     <ul class="menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="#">Shipping &amp; Returns</a></li>
-                                        <li><a href="#">Privacy Notice</a></li>
-                                        <li><a href="#">Conditions of Use</a></li>
+                                        <li><a href="about.html">Sobre nosotros</a></li>
+                                        <li><a href="#">Envío y devoluciones</a></li>
+                                        <li><a href="#">Aviso de Privacidad</a></li>
+                                        <li><a href="#">Condiciones de Uso</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4  collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-mic color"></span>On live Radio<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
+                                <h4><span class="icon flaticon-mic color"></span>En la Radio en Vivo<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-4">
                                     <ul class="menu">
-                                        <li>Schedule</li>
-                                        <li>Playlist</li>
-                                        <li>Last 10 Songs</li>
-                                        <li>New Songs</li>
+                                        <li>Programar</li>
+                                        <li>Lista de reproducción</li>
+                                        <li>Las últimas 10 canciones</li>
+                                        <li>Canciones nuevas</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-location-1 color"></span>CUSTOM HTML BLOCK<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
+                                <h4><span class="icon flaticon-location-1 color"></span>Ubícanos<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-6">
                                     <ul class="menu">
-                                        <li><span class="icon flaticon-home"></span> 7563 St. Vincent Place, Glasgow</li>
-                                        <li><span class="icon flaticon-phone"></span> 321321321, 321321321</li>
-                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
-                                        <li><span class="icon flaticon-skype"></span> <a href="#">shop.test</a></li>
+                                        <li><span class="icon flaticon-home"></span> Jr.Libertad S/N</li>
+                                        <li><span class="icon flaticon-phone"></span> 987838525 , 988005376</li>
+                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:tropikana.pe@gmail.com">tropikana.pe@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1060,7 +1042,7 @@
             </section>
             <section class="footer-bottom-block container visible-xs">
                 <div class="row">
-                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2015<a href="#"> Live Radio</a>. All Rights Reserved. </div>
+                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2018<a href="https://www.codsit.com">Codsit</a>. Todos los Derechos Reservados. </div>
                 </div>
             </section>
         </footer>

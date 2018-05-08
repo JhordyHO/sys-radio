@@ -6,9 +6,9 @@ $(document).ready(function(){
 	}, [
 		{
 			artist:"Radio en vivo",
-			title:"Tropikana.tk",
-			mp3:"http://radio.ancashserver.com:9550/;",
-			oga:"http://radio.ancashserver.com:9550/;"
+			title:"Tropikana",
+			mp3:"http://40.114.110.162:8000/;",
+			oga:"http://40.114.110.162:8000/;"
 		},
 		
 	], {

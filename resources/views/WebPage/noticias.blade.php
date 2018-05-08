@@ -134,9 +134,9 @@
                             </ul>
                             </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
-                            <dd></dd>
                             <dt class="item"> <a href="{{url('noticias')}}" class="btn-main active">Noticias</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">galería</a> </dt>
                             <dd></dd>
@@ -381,35 +381,34 @@
                             <a href="#"><img src="images/liveradio/logo-footer-dark.png" alt="" class="img-responsive"/></a> </div>
                         <div class="col-sm-9 col-md-9 col-lg-8 collapsed-block-outer">
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-info color"></span>Information<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
+                                <h4><span class="icon flaticon-info color"></span>Información<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-3">
                                     <ul class="menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="#">Shipping &amp; Returns</a></li>
-                                        <li><a href="#">Privacy Notice</a></li>
-                                        <li><a href="#">Conditions of Use</a></li>
+                                        <li><a href="about.html">Sobre nosotros</a></li>
+                                        <li><a href="#">Envío y devoluciones</a></li>
+                                        <li><a href="#">Aviso de Privacidad</a></li>
+                                        <li><a href="#">Condiciones de Uso</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4  collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-mic color"></span>On live Radio<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
+                                <h4><span class="icon flaticon-mic color"></span>En la Radio en Vivo<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-4">
                                     <ul class="menu">
-                                        <li>Schedule</li>
-                                        <li>Playlist</li>
-                                        <li>Last 10 Songs</li>
-                                        <li>New Songs</li>
+                                        <li>Programar</li>
+                                        <li>Lista de reproducción</li>
+                                        <li>Las últimas 10 canciones</li>
+                                        <li>Canciones nuevas</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-location-1 color"></span>CUSTOM HTML BLOCK<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
+                                <h4><span class="icon flaticon-location-1 color"></span>Ubícanos<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-6">
                                     <ul class="menu">
-                                        <li><span class="icon flaticon-home"></span> 7563 St. Vincent Place, Glasgow</li>
-                                        <li><span class="icon flaticon-phone"></span> 321321321, 321321321</li>
-                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
-                                        <li><span class="icon flaticon-skype"></span> <a href="#">shop.test</a></li>
+                                        <li><span class="icon flaticon-home"></span> Jr.Libertad S/N</li>
+                                        <li><span class="icon flaticon-phone"></span> 987838525 , 988005376</li>
+                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:info@mydomain.com">tropikana.pe@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -419,7 +418,7 @@
             </section>
             <section class="footer-bottom-block container visible-xs">
                 <div class="row">
-                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2015<a href="#"> Live Radio</a>. All Rights Reserved. </div>
+                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2018<a href="https://www.codsit.com">Codsit</a>. Todos los Derechos Reservados. </div>
                 </div>
             </section>
         </footer>

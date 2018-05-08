@@ -373,7 +373,7 @@ padding:1px 0
 }
 .btn-default {
 	background-color: #6e8fff;
-	border-color: #47c739;
+	border-color: #6e8fff;
 	color: #fff !important;
 	font-family: 'Cabin', sans-serif;
 	font-size: 14px;
@@ -478,7 +478,7 @@ header {
 	width: 57px;
 	height: 59px;
 	background: #fff;
-	background: rgba(#fff, .6);
+	background: #fff;
 	border: 1px solid transparent;
 	border-right: 0;
 	text-align: center;
@@ -604,7 +604,6 @@ header {
 .navbar-main-menu, .navbar-main-menu .item {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
-box- sizing:content-box
 }
 .navbar-main-menu-outer {
 	margin-top: 12px;
@@ -645,7 +644,7 @@ box- sizing:content-box
 	background: transparent !important;
 }
 .navbar-search .form-control {
- padding-right: 32px background-color: transparent;
+ padding-right: 32px; background-color: transparent;
 	border: none !important;
 	box-shadow: none;
 	color: transparent;
@@ -712,8 +711,8 @@ box- sizing:content-box
 	color: #fff
 }
 .navbar-main-menu {
-	z-index: 10;
-	background: #44cc0f;
+	z-index: 1;
+	background: #C4E538;
 	border-radius: 0;
 	display: inline-block;
 	height: 64px;

@@ -131,7 +131,7 @@
 .jp-volume-bar {
 	position: absolute;
 	overflow: hidden;
-	background: #edd109;
+	background: #fff;
 	top: 40px;
 	left: 0;
 	width: 85px;
@@ -139,7 +139,7 @@
 	cursor: pointer;
 }
 .jp-volume-bar-value {
-	background: #edd109;
+	background: #C4E538;
 	width: 0px;
 	height: 2px;
 }

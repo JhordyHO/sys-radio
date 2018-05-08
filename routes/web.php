@@ -23,3 +23,11 @@ Route::get('noticias','HomeController@noticias');
 Route::get('galeria','HomeController@galeria');
 Route::get('faq','HomeController@faq');
 Route::get('contacto','HomeController@contacto');
+
+//-----------------rutas noticias------------------
+
+Route::get('createN','AdminController@create');
+
+Route::get('updateN','AdminController@update');
+Route::get('viewN','AdminController@view');
+Route::get('deleteN','AdminController@eliminar');
