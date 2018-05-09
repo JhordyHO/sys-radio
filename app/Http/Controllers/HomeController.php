@@ -6,25 +6,23 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function horario(){
-        return view('WebPage.horario');
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
     }
-    public function djs(){
-        return view('WebPage.djs');
-    }
-    public function index2(){
-        return view('WebPage.index2');
-    }
-    public function noticias(){
-        return view('WebPage.noticias');
-    }
-    public function galeria(){
-        return view('WebPage.galeria');
-    }
-    public function faq(){
-        return view('WebPage.faq');
-    }
-    public function contacto(){
-        return view('WebPage.contacto');
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        return view('home');
     }
 }

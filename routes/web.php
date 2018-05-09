@@ -31,3 +31,6 @@ Route::get('createN','AdminController@create');
 Route::get('updateN','AdminController@update');
 Route::get('viewN','AdminController@view');
 Route::get('deleteN','AdminController@eliminar');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
