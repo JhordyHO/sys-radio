@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:55 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/djs.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:51 GMT -->
 <head>
     <meta charset="utf-8">
     <!--[if IE]>
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Contacto</title>
+    <title>Ranking</title>
     <link rel="shortcut icon" href="fav-dark.png" type="image/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
@@ -170,7 +170,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="{{url('')}}">Inicio</a> <span>&#8250;</span> Contacto</div>
+            <div class="container"><a href="{{url('')}}">Inicio</a> <span>&#8250;</span>Ranking</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -200,61 +200,247 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1> Contáctenos</h1>
+                <h1>RANKING DE LA SEMANA</h1>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="map animate fadeUp">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6115.684863819771!2d-82.9719195443651!3d39.96727545833253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3846176f3dff5ed!2sLa+Aurora!5e0!3m2!1sen!2sus!4v1416911994304" class="google-map"></iframe>
-                        </div>
-                        <div class="divider-sm"></div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-5"><img src="images/liveradio/logo-dark.gif" alt="" class="img-responsive" /></div>
-                        </div>
-                        <div class="divider-sm"></div>
-                        <ul class="contacts-list">
-                            <li><span class="icon flaticon-home"></span> Jr.Libertad S/N</li>
-                            <li><span class="icon flaticon-phone"></span> 987838525 , 988005376</li>
-                            <li><span class="icon flaticon-mail"></span> <a href="mailto:tropikana.pe@gmail.com">tropikana.pe@gmail.com</a></li>
-                        </ul>
-                        <div class="divider-lg"></div>
-                        <div class="divider-md"></div>
-                        <h3>Enviar mensaje </h3>
-                        <div class="divider-xs"></div>
-                        <form id="form-contact" method="post" novalidate>
-                            <div class="comment-form row">
-                                <div class="col-md-8">
-                                    <div class="form-group">
-                                        <label for="InputName">Tu nombre:<span class="required"></span></label>
-                                        <input type="text" id="InputName" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-group">
-                                        <label for="InputEmail">Tu correo electrónico:</label>
-                                        <input type="text" id="InputEmail" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group"> <span class="icon icon-bubbles-2"></span>
-                                        <label for="InputComment">Commentario:<span class="required"></span></label>
-                                        <textarea class="form-control" id="InputComment"></textarea>
-                                    </div>
-                                    <div class="row form-inline">
-                                        <div class="col-md-3 col-lg-3"><img src="images/capcha.png" alt=""/>
-                                            <div class="divider-sm visible-xs"></div>
-                                        </div>
-                                        <div class="col-md-8 col-lg-9">
-                                            <label for="InputCapcha">Verificación&nbsp;&nbsp;</label>
-                                            <input type="text" id="InputCapcha" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="divider-sm"></div>
-                                    <button type="submit" class="btn btn-default">Enviar mensaje</button>
-                                </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-01.jpg" alt="" class="img-left" />
+                                <h3>Vestibulum justo</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                        </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-02.jpg" alt="" class="img-left" />
+                                <h3>Nulla mauris ipsum</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-03.jpg" alt="" class="img-left" />
+                                <h3>Fusce ullamcorper</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-04.jpg" alt="" class="img-left" />
+                                <h3>Mauris sem sapien</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-05.jpg" alt="" class="img-left" />
+                                <h3>Aenean dapibus</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate fadeUp">
+                        <div class="djs-box">
+                            <div class="inside"><img src="images/liveradio/img-djs-06.jpg" alt="" class="img-left" />
+                                <h3>Fusce vulputate nibh</h3>
+                                <div class="tags"><a href="#">House</a>, <a href="#">Deep House</a>, <a href="#">Electro-House</a></div>
+                                <p>Integer semper, velit ut interdum malesuada, diam volutpat. Nulla porttitor tortor at nisl. Nam lectus nulla, bibendum pretium, dictum a, mattis dictum et, pulvinar non. </p>
+                                <a class="contact-icon" href="#"><span class="flaticon-facebook"></span></a> <a class="contact-icon" href="#"><span class="flaticon-twitter"></span></a> <a class="contact-icon" href="#"><span class="flaticon-linkedin"></span></a> <a class="contact-icon" href="#"><span class="flaticon-gplus"></span></a></div>
+                            <div class="schedule">
+                                <table border="0">
+                                    <tbody>
+                                    <tr>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>wed</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                        <th>sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>6.00 AM<br>
+                                            On-Air</td>
+                                        <td>10.00 AM<br>
+                                            On-Air</td>
+                                        <td>12.00 AM<br>
+                                            On-Air</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -370,54 +556,13 @@
 <script src="js/jquery.inview.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/supersubs.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
 <script src="jplayer/jquery.jplayer.js"></script>
 <script src="jplayer/jplayer.playlist.js"></script>
 <script src="jplayer/header-playlist.js"></script>
+<script src="jplayer/top10-playlist.js"></script>
 <script src="js/liveradio.js"></script>
-<script src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-<script src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-<script type="text/javascript">
-    $("body").on("click", "#refreshimg", function(){
-        $.post("captcha/newsession.html");
-        $("#captchaimage").load("captcha/image_req.html");
-        return false;
-    });
-    //validate book form
-    $(function() {
-        $('#form-appointment').validate({
-            rules: {
-                captcha: {
-                    required: true,
-                    remote: "captcha/process.php"
-                }
-            },
-            messages: {
-                captcha: "Captcha is not correct."
-            },
-            submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    type:"POST",
-                    data: $(form).serialize(),
-                    url:"process-contact.php",
-                    success: function() {
-                        $('#success').fadeIn();
-                        $('label.error').each(function(){this.fadeOut();});
-                        $( '#form-appointment').each(function(){this.reset();});
-                    },
-                    error: function() {
-                        $('#form-appointment').fadeTo( "slow", 0, function() {
-                            $('#error').fadeIn();
-                        });
-                    }
-                });
-            }
-        });
-    });
-</script>
 </body>
 
-<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:59 GMT -->
+<!-- Mirrored from ocean.tonytemplates.com/ttdemo/tonytemplates/23-live-radio/dark-radio/djs.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Mar 2018 20:30:52 GMT -->
 </html>

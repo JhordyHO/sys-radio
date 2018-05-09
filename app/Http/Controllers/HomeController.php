@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function horario(){
-        return view('WebPage.horario');
+    public function programacion(){
+        return view('WebPage.programacion');
     }
     public function djs(){
         return view('WebPage.djs');
     }
-    public function index2(){
-        return view('WebPage.index2');
+    public function ranking(){
+        return view('WebPage.ranking');
     }
     public function noticias(){
         return view('WebPage.noticias');
@@ -21,8 +21,8 @@ class HomeController extends Controller
     public function galeria(){
         return view('WebPage.galeria');
     }
-    public function faq(){
-        return view('WebPage.faq');
+    public function nosotros(){
+        return view('WebPage.nosotros');
     }
     public function contacto(){
         return view('WebPage.contacto');

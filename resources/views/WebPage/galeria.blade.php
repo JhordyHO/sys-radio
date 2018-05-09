@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Tropi-k-n@</title>
+    <title>Galeria</title>
     <link rel="shortcut icon" href="fav-dark.png" type="image/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
@@ -39,26 +39,20 @@
         <span class="bar n8">H</span>
     </div>
 </div>
-<!-- Off Canvas Menu -->
+<!-- Menu Reponsivo-->
 <nav id="off-canvas-menu" >
     <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
     <ul class="expander-list">
-        <li> <span class="name"><span class="expander">-</span> <a href="djs.html">Djs</a></span>
-            <ul>
-                <li><span class="name"><a href="#">Djs Submenu#1</a></span> </li>
-                <li><span class="name"><a href="#">Djs Submenu#2</a></span> </li>
-                <li><span class="name"><a href="#">Djs Submenu#3</a></span> </li>
-                <li><span class="name"><a href="#">Djs Submenu#4</a></span> </li>
-            </ul>
-        </li>
-        <li><span class="name"><a href="{{url('horario')}}">Horarios</a></span></li>
+        <li><span class="name"><a href="{{url('')}}">Inicio</a></span></li>
         <li><span class="name"><a href="{{url('noticias')}}">Noticias</a></span></li>
-        <li><span class="name"><a href="fallery.html">GALERIA</a></span></li>
-        <li><span class="name"><a href="faq.html">FAQ</a></span></li>
-        <li><span class="name"><a href="contacto.html">Contact</a></span></li>
+        <li><span class="name"><a href="{{url('programacion')}}">Programacion</a></span></li>
+        <li><span class="name"><a href="{{url('djs')}}">Djs</a></span></li>
+        <li><span class="name"><a href="{{url('ranking')}}">Ranking</a></span></li>
+        <li><span class="name"><a href="{{url('galeria')}}">Galeria</a></span></li>
+        <li><span class="name"><a href="{{url('contacto')}}">Contacto</a></span></li>
     </ul>
 </nav>
-<!-- //end Off Canvas Menu -->
+<!-- //Menu Reponsivo -->
 
 <div id="outer">
     <div id="outer-canvas"> <!-- Navbar -->
@@ -72,7 +66,7 @@
                 <div class="background">
                     <div class="container">
                         <!-- Logo -->
-                        <div class="navbar-logo pull-left"> <a href="index-2.html"><img src="images/liveradio/logo-dark.gif" alt="Live Radio" class="img-responsive"></a></div>
+                        <div class="navbar-logo pull-left"> <a href="{{url('')}}"><img src="images/liveradio/logo-dark.gif" alt="Live Radio" class="img-responsive"></a></div>
                         <!-- //end Logo -->
                         <div id="top-player">
                             <div id="jquery_jplayer_1" class="jp-jplayer"></div>
@@ -107,41 +101,28 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Search -->
+                        <!-- SEARCH -->
                         <form class="navbar-search form-inline visible-lg visible-md pull-right" role="form">
                             <div class="form-group">
                                 <button type="submit" class="button"><span class="flaticon-search"></span></button>
                                 <input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
                             </div>
-
                         </form>
-                        <!-- //end Search -->
-                        <!-- Main menu -->
+                        <!-- MENU NORMAL -->
                         <dl class="navbar-main-menu hidden-xs">
-                            <dt class="item"> <a href="{{url('welcome')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
-                            <dd></dd>
-                            <dt class="item">
-                            <ul class="sf-menu">
-                                <li> <a href="{{url('djs')}}">Djs</a>
-                                    <ul>
-                                        <li><a href="#">Djs Submenu # 1</a></li>
-                                        <li><a href="#">Djs Submenu # 2</a></li>
-                                        <li><a href="#">Djs Submenu # 3</a></li>
-                                        <li><a href="#">Djs Submenu # 4</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            </dt>
-                            <dd></dd>
-                            <dt class="item"> <a href="{{url('horario')}}" class="btn-main">Horarios</a> </dt>
+                            <dt class="item"> <a href="{{url('')}}" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                             <dd></dd>
                             <dt class="item"> <a href="{{url('noticias')}}" class="btn-main">Noticias</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main active">galería</a> </dt>
+                            <dt class="item"> <a href="{{url('programacion')}}" class="btn-main">Programacion</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('faq')}}" class="btn-main">FAQ</a> </dt>
+                            <dt class="item"> <a href="{{url('djs')}}" class="btn-main">Djs</a> </dt>
                             <dd></dd>
-                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">contáctanos</a> </dt>
+                            <dt class="item"> <a href="{{url('ranking')}}" class="btn-main">Ranking</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('galeria')}}" class="btn-main">Galeria</a> </dt>
+                            <dd></dd>
+                            <dt class="item"> <a href="{{url('contacto')}}" class="btn-main">Contacto</a> </dt>
                             <dd></dd>
                         </dl>
                         <!-- //end Main menu -->
@@ -155,7 +136,8 @@
                         <div class="nav-item item-02"><a href="#"></a></div>
                         <div class="nav-item item-03"><a href="#"></a></div>
                         <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
-                            <div class="tab-content"> <!-- Search -->
+                            <div class="tab-content">
+                                <!-- Search -->
                                 <form class="navbar-search form-inline" role="form">
                                     <div class="form-group">
                                         <button type="submit" class="button"><span class="flaticon-search"></span></button>
@@ -176,7 +158,6 @@
                 <!-- //end Navbar switcher -->
 
             </section>
-
             <!-- Navbar height -->
             <div class="navbar-height-inner"></div>
             <!-- Navbar height -->
@@ -189,7 +170,7 @@
         <!-- //end Navbar -->
         <!-- Breadcrumbs -->
         <div id="breadcrumbs">
-            <div class="container"><a href="#">Home</a> <span>&#8250;</span> Gallery</div>
+            <div class="container"><a href="{{url('')}}">Inicio</a> <span>&#8250;</span> Galeria</div>
         </div>
         <!-- //end Breadcrumbs -->
 
@@ -219,14 +200,14 @@
         <!-- //end Social widgets -->
         <section class="content">
             <div class="container">
-                <h1>Gallery</h1>
+                <h1>Galeria</h1>
                 <div class="filters-by-category text-center">
                     <ul class="option-set" data-option-key="filter">
-                        <li><a href="#filter" data-option-value="*" class="selected">all events</a></li>
-                        <li><a href="#filter" data-option-value=".category1">event 10.01.2015</a></li>
-                        <li><a href="#filter" data-option-value=".category2" class="">event 12.01.2015</a></li>
-                        <li><a href="#filter" data-option-value=".category3" class="">event 14.01.2015</a></li>
-                        <li><a href="#filter" data-option-value=".category4" class="">event 17.01.2015</a></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Todos los eventos</a></li>
+                        <li><a href="#filter" data-option-value=".category1" class="">Evento 01.06.2018</a></li>
+                        <li><a href="#filter" data-option-value=".category2" class="">Evento 12.07.2018</a></li>
+                        <li><a href="#filter" data-option-value=".category3" class="">Evento 14.08.2018</a></li>
+                        <li><a href="#filter" data-option-value=".category4" class="">Evento 17.09.2018</a></li>
                     </ul>
                 </div>
                 <div class="gallery">
@@ -261,19 +242,20 @@
                     <div class="item category4 category1"> <a href="images/gallery/image-big-29.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-29.jpg"  alt=""/> </a> </div>
                     <div class="item category2 category3"> <a href="images/gallery/image-big-30.jpg" class="img-popup"><img src="images/gallery/gallery-thumb-30.jpg"  alt=""/> </a> </div>
                 </div>
-                <div class="text-center"><a href="#" class="btn btn-default btn-lg">MORE Photos</a></div>
+                <div class="text-center"><a href="#" class="btn btn-default btn-lg">Mas fotos</a></div>
             </div>
-        </section>  <!-- Social navbar -->
+        </section>
+        <!-- Social navbar -->
         <section class="content nopad-xs grey-box">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-6  col-lg-6 newsletter collapsed-block">
                         <div class="row">
                             <div class="col-lg-5  col-md-12 col-sm-12 ">
-                                <h2 class="icon-title"><span class="icon flaticon-mail color"></span>NEWSLETTER SIGNUP <a class="expander visible-xs" href="#TabBlock-1">+</a></h2>
+                                <h2 class="icon-title"><span class="icon flaticon-mail color"></span>INSCRÍBASE AL BOLETÍN <a class="expander visible-xs" href="#TabBlock-1">+</a></h2>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 tabBlock" id="TabBlock-1">
-                                <p>Enter your email and we'll send you a coupon with 10% off your next order.</p>
+                                <p>Ingrese su correo electrónico y le enviaremos un cupón con un 10% de descuento en su próximo pedido.</p>
                                 <form class="form-inline" role="form">
                                     <div class="form-group input-control">
                                         <button type="submit" class="button"><span class="flaticon-mail-alt"></span></button>
@@ -284,15 +266,15 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6 collapsed-block">
-                        <h2><span class="icon flaticon-disc29 color"></span>FIND US ON<a class="expander visible-xs" href="#TabBlock-2">+</a></h2>
+                        <h2><span class="icon flaticon-disc29 color"></span>ENCUÉNTRANOS EN<a class="expander visible-xs" href="#TabBlock-2">+</a></h2>
                         <div  class="tabBlock" id="TabBlock-2">
                             <ul class="find-us">
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-facebook flaticon-facebook"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-twitter flaticon-twitter"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-linkedin flaticon-linkedin"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-youtube flaticon-youtube"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-pinterest flaticon-pinterest"></span></a></li>
-                                <li class="divider"><a href="#" class="animate-scale"><span class="icon icon-gplus flaticon-gplus"></span></a></li>
+                                <li class="divider"><a href="https://www.facebook.com/Radio-Tropikana-Vrae-1025-FM-318964435227264/" class="animate-scale"><span class="icon icon-facebook flaticon-facebook"></span></a></li>
+                                <li class="divider"><a href="https://twitter.com/TropikanaT" class="animate-scale"><span class="icon icon-twitter flaticon-twitter"></span></a></li>
+                                <li class="divider"><a href="https://www.instagram.com/tropikanaradiotv/" class="animate-scale"><span class="icon icon-instagramm flaticon-instagramm"></span></a></li>
+                                <li class="divider"><a href="https://www.youtube.com/channel/UCHfl7optcRWSZKgPoLEqJVA" class="animate-scale"><span class="icon icon-youtube flaticon-youtube"></span></a></li>
+                                <li class="divider"><a href="https://www.pinterest.com/tropikanaradiotv/" class="animate-scale"><span class="icon icon-pinterest flaticon-pinterest"></span></a></li>
+                                <li class="divider"><a href="https://plus.google.com/u/0/103317885145608387111" class="animate-scale"><span class="icon icon-gplus flaticon-gplus"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -311,39 +293,38 @@
                 <div class="container content nopad-xs">
                     <div class="row">
                         <div class="col-sm-3 col-md-3 col-lg-4 hidden-xs animate fadeUp">
-                            <div>&copy; 2015<a href="#"> Live Radio</a>. <span class="clearfix visible-sm"></span>All Rights Reserved.</div>
-                            <a href="#"><img src="images/liveradio/logo-footer-dark.png" alt="" class="img-responsive"/></a> </div>
+                            <div>&copy; 2018<a href="https://www.codsit.com"> Codsit</a>. <span class="clearfix visible-sm"></span>Todos los Derechos Reservados.</div>
+                            <a href="#"><img src="images/liveradio/logo-dark.gif" alt="" class="img-responsive"/></a> </div>
                         <div class="col-sm-9 col-md-9 col-lg-8 collapsed-block-outer">
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-info color"></span>Information<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
+                                <h4><span class="icon flaticon-info color"></span>Información<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-3">
                                     <ul class="menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="#">Shipping &amp; Returns</a></li>
-                                        <li><a href="#">Privacy Notice</a></li>
-                                        <li><a href="#">Conditions of Use</a></li>
+                                        <li><a href="{{url('nosotros')}}">Sobre nosotros</a></li>
+                                        <li><a href="#">Envío y devoluciones</a></li>
+                                        <li><a href="#">Aviso de Privacidad</a></li>
+                                        <li><a href="#">Condiciones de Uso</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4  collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-mic color"></span>On live Radio<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
+                                <h4><span class="icon flaticon-mic color"></span>En la Radio en Vivo<a class="expander visible-xs" href="#TabBlock-4">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-4">
                                     <ul class="menu">
-                                        <li>Schedule</li>
-                                        <li>Playlist</li>
-                                        <li>Last 10 Songs</li>
-                                        <li>New Songs</li>
+                                        <li>Programar</li>
+                                        <li>Lista de reproducción</li>
+                                        <li>Las últimas 10 canciones</li>
+                                        <li>Canciones nuevas</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 collapsed-block animate fadeUp">
-                                <h4><span class="icon flaticon-location-1 color"></span>CUSTOM HTML BLOCK<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
+                                <h4><span class="icon flaticon-location-1 color"></span>Ubícanos<a class="expander visible-xs" href="#TabBlock-6">+</a></h4>
                                 <div  class="tabBlock" id="TabBlock-6">
                                     <ul class="menu">
-                                        <li><span class="icon flaticon-home"></span> 7563 St. Vincent Place, Glasgow</li>
-                                        <li><span class="icon flaticon-phone"></span> 321321321, 321321321</li>
-                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
-                                        <li><span class="icon flaticon-skype"></span> <a href="#">shop.test</a></li>
+                                        <li><span class="icon flaticon-home"></span> Jr.Libertad S/N</li>
+                                        <li><span class="icon flaticon-phone"></span> 987838525 , 988005376</li>
+                                        <li><span class="icon flaticon-mail"></span> <a href="mailto:tropikana.pe@gmail.com">tropikana.pe@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -353,7 +334,7 @@
             </section>
             <section class="footer-bottom-block container visible-xs">
                 <div class="row">
-                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2015<a href="#"> Live Radio</a>. All Rights Reserved. </div>
+                    <div class="col-sm-5 col-md-4 copyright-text"> &copy; 2018<a href="https://www.codsit.com">Codsit</a>. Todos los Derechos Reservados. </div>
                 </div>
             </section>
         </footer>

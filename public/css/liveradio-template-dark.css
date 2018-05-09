@@ -544,7 +544,7 @@ header {
 }
 /*social icons*/
 .icon.icon-facebook {
-	color: #4664b7
+	color: #08428C
 }
 .icon.icon-twitter {
 	color: #00b6e4
@@ -714,7 +714,6 @@ header {
 	z-index: 1;
 	background: #C4E538;
 	border-radius: 0;
-	display: inline-block;
 	height: 64px;
 	padding: 0;
 	margin: 0;
@@ -2715,3 +2714,4 @@ top:-24px
 	-ms-transform-duration: 500ms;
 	-ms-transform-timing-function: ease-out
 }
+/*==========css del buscador=======/*

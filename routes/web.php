@@ -16,18 +16,10 @@ Route::get('/', function () {
 });
 Route::get('admin','AdminController@AdminCon');
 Route::get('usuario','UduarioController@UsuarioCon');
-Route::get('horario','HomeController@horario');
+Route::get('programacion','HomeController@programacion');
+Route::get('ranking','HomeController@ranking');
 Route::get('djs','HomeController@djs');
-Route::get('welcome','HomeController@index2');
 Route::get('noticias','HomeController@noticias');
 Route::get('galeria','HomeController@galeria');
-Route::get('faq','HomeController@faq');
+Route::get('nosotros','HomeController@nosotros');
 Route::get('contacto','HomeController@contacto');
-
-//-----------------rutas noticias------------------
-
-Route::get('createN','AdminController@create');
-
-Route::get('updateN','AdminController@update');
-Route::get('viewN','AdminController@view');
-Route::get('deleteN','AdminController@eliminar');
