@@ -9,24 +9,35 @@
 namespace App\Repository;
 
 
-use App\Noticia;
+
+use App\Post;
 
 class AdminRepo
 {
+    protected $Post;
 
-    protected $Noticias;
-
-    public function __construct(Noticia $noticia)
+    public function __construct(Post $post)
     {
-        $this->Noticias = $noticia;
+        $this->Post = $post;
     }
 
-    public function  viewById($idN){
+    public function saveNoticia($data,$id_autor,$id_cate){
+        $model = new $this->Post;
+        $model->category_id = $id_cate;
+        $model->title = $data['title'];
+        $model->body = $data['content'];
+        $model->author_id = $id_autor;
+        $model->banner = $data['banner'];
+        $model->resume = $data['resume'];
+        $model->slug_url = $data['link'];
+        $model->active = true;
+        $model->save();
+        return $model;
+    }
 
+    public function listNoticia(){
+       return $this->Post->orderBy('created_at', 'desc')->paginate(5); //asc //desc
     }
-    public  function  createNoticia(){
-        $modelo = new $this->Noticia;
-          $modelo->url = $data['body'];
-    }
+
 
 }

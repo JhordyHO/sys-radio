@@ -1,25 +1,25 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('admin','AdminController@AdminCon');
+
+//---------------- rutas de la pagina web ------------------>
+Route::get('/','HomeController@webIndex');
+Route::get('home','AdminController@adminView');
+Route::get('admin','AdminController@adminView');
 Route::get('usuario','UduarioController@UsuarioCon');
-Route::get('programacion','HomeController@programacion');
-Route::get('ranking','HomeController@ranking');
+Route::get('horario','HomeController@horario');
 Route::get('djs','HomeController@djs');
+Route::get('welcome','HomeController@index2');
 Route::get('noticias','HomeController@noticias');
 Route::get('galeria','HomeController@galeria');
-Route::get('nosotros','HomeController@nosotros');
+Route::get('faq','HomeController@faq');
 Route::get('contacto','HomeController@contacto');
+
+
+Auth::routes();
+Route::get('/authfb', 'Auth\SocialController@login')->name('authfb');// login facebook route
+//---- Router Noticias -------
+Route::get('nuevaNoticia','AdminController@newNoticia');
+Route::post('saveNoticia','AdminController@saveNoticia');
+
+

@@ -2,35 +2,37 @@
 
 namespace App\Http\Controllers;
 
+use App\Repository\AdminRepo;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function AdminCon(){
+    protected $RepoAdmin;
 
+    /**
+     * AdminController constructor.
+     */
+    public function __construct(AdminRepo $adminRepo)
+    {
+        $this->middleware('auth');
+        $this->RepoAdmin = $adminRepo;
+    }
+
+    public function adminView(){
         return view('admin.index');
-
-
-    }public function create(){
-    return view('admin.create');
     }
-    public function guardarNoticia{Request $request}{
-       dd($request);
-     }
-    public function view(){
-        return "metodo view";
 
+    public function newNoticia(){
+        $noti =  $this->RepoAdmin->listNoticia();
+        return view('admin.noticias.index',compact('noti'));
     }
-    public function update(){
-        return "metodo update";
+    public function saveNoticia(Request $request){
+        if($this->RepoAdmin->saveNoticia($request,auth()->user()->id,1)){
+            return back();
+        };
+    }
 
-    }
-    public function eliminar(){
-        return "metodo eliminar";
-
-    }
 
 }
 
-//-------------crud noticias-------------
 

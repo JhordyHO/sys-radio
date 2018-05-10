@@ -2,10 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Repository\AdminRepo;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    protected $RepoAdmin;
+    public function __construct(AdminRepo $adminRepo)
+    {
+        $this->RepoAdmin = $adminRepo;
+    }
+
+    public function webIndex(){
+        $noti = $this->RepoAdmin->listNoticia();
+        return view('welcome',compact('noti'));
+    }
+
     public function programacion(){
         return view('WebPage.programacion');
     }
@@ -16,7 +28,8 @@ class HomeController extends Controller
         return view('WebPage.ranking');
     }
     public function noticias(){
-        return view('WebPage.noticias');
+        $noti = $this->RepoAdmin->listNoticia();
+        return view('WebPage.noticias',compact('noti'));
     }
     public function galeria(){
         return view('WebPage.galeria');
@@ -27,4 +40,5 @@ class HomeController extends Controller
     public function contacto(){
         return view('WebPage.contacto');
     }
+
 }
