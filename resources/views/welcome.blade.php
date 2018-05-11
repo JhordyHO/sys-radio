@@ -14,18 +14,15 @@
     <link rel="shortcut icon" href="fav-dark.png" type="images/png">
     <!-- CSS preloader -->
     <link href="css/loader-dark.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="css/liveradio-template-dark.css" rel="stylesheet">
-    <!-- CSS modules -->
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/sfmenu.css" rel="stylesheet">
     <link href="css/jquery.mCustomScrollbar-dark.css" rel="stylesheet" />
     <link href="jplayer/skin/liveradio/css/jplayer.liveradio-dark.css" rel="stylesheet" />
     <link href="fonts/flaticon-liveradio/flaticon.css" rel="stylesheet">
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/rs-plugin/css/settings.css" media="screen" />
 </head>
 <body class="responsive">
 <div class="loader">
@@ -1027,27 +1024,27 @@
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
+<script src="/js/html5shiv.js"></script>
+<script src="/js/respond.min.js"></script>
 <![endif]-->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.ui.touch-punch.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/jquery.inview.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/supersubs.js"></script>
-<script src="js/jquery.mCustomScrollbar.min.js"></script>
-<script src="jplayer/jquery.jplayer.js"></script>
-<script src="jplayer/jplayer.playlist.js"></script>
-<script src="jplayer/header-playlist.js"></script>
-<script src="jplayer/top10-playlist.js"></script>
-<script src="js/liveradio.js"></script>
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.flexslider.js"></script>
+<script src="/js/jquery.parallax.js"></script>
+<script src="/js/jquery.inview.js"></script>
+<script src="/js/superfish.js"></script>
+<script src="/js/supersubs.js"></script>
+<script src="/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="/jplayer/jquery.jplayer.js"></script>
+<script src="/jplayer/jplayer.playlist.js"></script>
+<script src="/jplayer/header-playlist.js"></script>
+<script src="/jplayer/top10-playlist.js"></script>
+<script src="/js/liveradio.js"></script>
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript">
 
     jQuery(document).ready(function() {

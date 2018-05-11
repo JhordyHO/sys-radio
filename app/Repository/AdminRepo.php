@@ -22,7 +22,11 @@ class AdminRepo
     }
 
     public function saveNoticia($data,$id_autor,$id_cate){
-        $model = new $this->Post;
+        if($data['idpost'] != null){
+            $model = $this->Post->whereIdpost($data['idpost'])->first();
+        }else{
+            $model = new $this->Post;
+        }
         $model->category_id = $id_cate;
         $model->title = $data['title'];
         $model->body = $data['content'];
@@ -39,5 +43,11 @@ class AdminRepo
        return $this->Post->orderBy('created_at', 'desc')->paginate(5); //asc //desc
     }
 
+    public function getPostId($idPost){
+        return $this->Post->whereIdpost($idPost)->first();
+    }
+    public function getPostBySlug($url){
+      return  $this->Post->whereSlug_url($url)->first();
+    }
 
 }

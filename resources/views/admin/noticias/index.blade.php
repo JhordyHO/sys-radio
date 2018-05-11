@@ -134,11 +134,14 @@
                                         <a class="btn white btn-round btn-primary">Active</a>
                                     </td>
                                     <td>
-                                        <a href="{{url('/')}}{{$not->slug_url}}" class="btn btn-raised btn-icon btn-pure success mr-1"><i class="fa fa-external-link"></i></a>
+                                        <a href="noticia/{{$not->slug_url}}" class="btn btn-raised btn-icon btn-pure success mr-1"><i class="fa fa-external-link"></i></a>
                                     </td>
                                     <td>
                                         <a class="danger" data-original-title="" title="">
-                                            <i class="ft-x"></i>
+                                            <i class="fa fa-delete"></i>
+                                        </a>
+                                        <a onclick="edit({{$not->idpost}})" class="success" data-original-title="" title="">
+                                            <i class="fa fa-edit"></i>
                                         </a>
                                     </td>
                                 </tr>
@@ -151,9 +154,6 @@
             </div>
             <div id="tab_create" style="display: none;" class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h4 class="card-title">Nueva Noticia</h4>
-                    </div>
                     <div class="card-body">
                         <div class="card-block">
                             <form class="icons-tab-steps wizard-circle formNews" method="POST" action="{{ url('saveNoticia') }}">
@@ -161,12 +161,13 @@
                                 <h6>Titulo de la Noticia</h6>
                                 <fieldset>
                                     {{ csrf_field() }}
+                                    <input type="hidden" id="id_post" name="idpost">
                                     <input id="permalien2" type="hidden" name="link"></p>
                                     <div class="row">
                                         <div class="col-md-12 pl-1 pr-1">
                                             <div class="card card card-outline-primary box-shadow-0 text-center">
                                                 <div class="card-body">
-                                                    <img class="card-img-top img-fluid" src="app-assets/img/photos/06.jpg" style="height: 200px;" >
+                                                    <img class="card-img-top img-fluid banner" src="app-assets/img/photos/06.jpg" style="height: 200px;" >
                                                     <div class="card-block">
                                                         <input id="title" type="text" class="form-control" name="title" onkeyup="changeTitle(this)"  required autofocus placeholder="Titulo">
                                                         <hr>
@@ -197,13 +198,13 @@
                                             <div class="card card card-outline-primary box-shadow-0 text-center">
                                                 <div class="card-body">
                                                     <a href = "javascript:void(0)" onclick="getImagenElfinder('#preview_img','#url_img')">
-                                                        <img id="preview_img" class="card-img-top img-fluid" src="app-assets/img/photos/06.jpg" style="height: 200px;"  >
+                                                        <img id="preview_img" class="banner card-img-top img-fluid" src="app-assets/img/photos/06.jpg" style="height: 200px;"  >
                                                     </a>
                                                     <div class="card-block">
                                                         <h4 class="card-title" id="titulo_preview"></h4>
                                                         <hr>
                                                         <p class="card-text">Resumen de la notica</p>
-                                                        <textarea name="resume" class="form-control"></textarea>
+                                                        <textarea name="resume" class="news_resume form-control"></textarea>
 
                                                     </div>
                                                 </div>
@@ -263,7 +264,6 @@
                     var conten = CKEDITOR.instances.content.getData();
                     $('#content').val(conten);
                     var data = $('.formNews').serializeArray();
-                    console.log(data);
                     $.ajax({
                         url : '{{url('saveNoticia')}}',
                         method : 'post',
@@ -348,6 +348,30 @@
             $('#tab_list').attr('class', 'col-6');
             $('#tab_create').show(300);
             $('#tab_create').attr('class', 'col-6');
-        })
+        });
+
+        function edit(id_post) {
+            $('#tab_list').attr('class', 'col-6');
+            $('#tab_create').show(300);
+            $('#tab_create').attr('class', 'col-6');
+
+            $.ajax({
+                url:'{{url('getPost')}}',
+                method:'get',
+                data:{id_post:id_post},
+                success:function (data) {
+                        $('#id_post').val(data.idpost);
+                        $('#title').val(data.title);
+                        $('.news_resume').val(data.resume);
+                      var conten = CKEDITOR.instances.content;
+                    conten.setData(data.body);
+                        $('.banner').attr('src',data.banner);
+                        $('#url_img').val(data.banner);
+                        $('#permalien2').val(data.slug_url);
+                }
+
+            })
+
+        }
     </script>
 @endsection

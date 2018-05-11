@@ -27,9 +27,17 @@ class AdminController extends Controller
         return view('admin.noticias.index',compact('noti'));
     }
     public function saveNoticia(Request $request){
-        if($this->RepoAdmin->saveNoticia($request,auth()->user()->id,1)){
-            return back();
-        };
+       return  $this->RepoAdmin->saveNoticia($request,auth()->user()->id,1);
+    }
+    public function NoticiaView($slug){
+        $noti = $this->RepoAdmin->getPostBySlug($slug);
+        return view('WebPage.noticia',compact('noti'));
+    }
+
+
+    public function getPost(Request $request){
+       return $post = $this->RepoAdmin->getPostId($request['id_post']); //1 : CATEGORIA NOTICIAS
+
     }
 
 
