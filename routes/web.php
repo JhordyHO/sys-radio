@@ -20,8 +20,9 @@ Auth::routes();
 Route::get('/authfb', 'Auth\SocialController@login')->name('authfb');// login facebook route
 //---- Router Noticias -------
 Route::get('nuevaNoticia','AdminController@newNoticia');
-Route::get('noticia/{slug}','AdminController@NoticiaView');
+Route::get('noticia/{slug}','HomeController@NoticiaView');
 Route::post('saveNoticia','AdminController@saveNoticia');
+Route::post('eliminarPost','AdminController@eliminarPost');
 
 
 

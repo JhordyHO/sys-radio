@@ -67,13 +67,12 @@ return array(
     'roots'  => array(
         array(
             'driver' => 'LocalFileSystem',
-            'path' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
-            'alias'      => 'Home',
+            'path' => base_path('/public/uploads'),
+            'url' => base_path('/public/uploads'),
             'tmbPath'    => base_path('/public/.tmb'),
             'tmbURL'    => '/.tmb',
             'quarantine'    => '/.quarantine',
-            'tmbCrop'    => true,
+            'tmbCrop'    => true
         )
     ),
 

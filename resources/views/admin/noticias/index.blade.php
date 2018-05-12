@@ -137,8 +137,8 @@
                                         <a href="noticia/{{$not->slug_url}}" class="btn btn-raised btn-icon btn-pure success mr-1"><i class="fa fa-external-link"></i></a>
                                     </td>
                                     <td>
-                                        <a class="danger" data-original-title="" title="">
-                                            <i class="fa fa-delete"></i>
+                                        <a onclick="eliminar({{$not->idpost}},this)" class="danger" data-original-title="" title="">
+                                            <i class="fa fa-trash-o"></i>
                                         </a>
                                         <a onclick="edit({{$not->idpost}})" class="success" data-original-title="" title="">
                                             <i class="fa fa-edit"></i>
@@ -314,9 +314,9 @@
                     }
                 },
                 getFileCallback: function(file) {
-                    console.log(file.url);
-                    $(resul).attr('src',file.url);
-                    $(input).val(file.url);
+                    console.log(file);
+                    $(resul).attr('src',file.path);
+                    $(input).val(file.path);
                     $('#modal-file').modal('toggle');
                 },
                 handlers : {
@@ -371,6 +371,50 @@
                 }
 
             })
+
+        }
+
+        function eliminar(id_post,row) {
+            swal({
+                title: 'Estas Seguro?',
+                text: "Eliminar esta Noticia!",
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#0CC27E',
+                cancelButtonColor: '#FF586B',
+                confirmButtonText: 'Si, Eliminar!',
+                cancelButtonText: 'No, Cancelar!',
+                confirmButtonClass: 'btn btn-success btn-raised mr-5',
+                cancelButtonClass: 'btn btn-danger btn-raised',
+                buttonsStyling: false
+            }).then(function () {
+                $.ajax({
+                    url:'{{url('eliminarPost')}}',
+                    method:'post',
+                    data:{id_post:id_post},
+                    success:function (data) {
+                        if(data){
+                            row.closest ('tr').remove();
+                            swal(
+                                    'Eliminado!',
+                                    'El Registro fue eliminado corectamente.',
+                                    'success'
+                            )
+                        }
+                    }
+
+                });
+
+            }, function (dismiss) {
+                // dismiss can be 'overlay', 'cancel', 'close', 'esc', 'timer'
+                if (dismiss === 'cancel') {
+                    swal(
+                            'Cancelado',
+                            'Tu registro esta seguro :)',
+                            'error'
+                    )
+                }
+            });
 
         }
     </script>

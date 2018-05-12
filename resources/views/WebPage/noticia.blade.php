@@ -11,12 +11,12 @@
                             <h2><a href="#">{{$noti->title}}</a></h2>
                         </div>
                         <div class="post-container">
-                            <div class="animate scale animated"> <img class="img-responsive" src="{{$noti->banner}}" alt="">
+                            <div class="animate scale animated"> <img class="img-responsive" src="{{asset($noti->banner)}}" alt="">
                                 <div class="post-date"><span class="icon flaticon-clock"></span>{{$noti->created_at->format('d F Y')}}</div>
                                 <div class="post-comment"><a href="#">41 Comments</a></div>
                             </div>
                             <div class="divider-md"></div>
-                           {!! $noti->body !!}}
+                            {!! $noti->body !!}
                             <div class="divider-sm"></div>
                             <h3>TAGS</h3>
                             <ul class="tags-list">

@@ -17,7 +17,10 @@ class HomeController extends Controller
         $noti = $this->RepoAdmin->listNoticia();
         return view('welcome',compact('noti'));
     }
-
+    public function NoticiaView($slug){
+        $noti = $this->RepoAdmin->getPostBySlug($slug);
+        return view('WebPage.noticia',compact('noti'));
+    }
     public function programacion(){
         return view('WebPage.programacion');
     }

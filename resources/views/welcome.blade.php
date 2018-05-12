@@ -829,6 +829,7 @@
                             \Carbon\Carbon::setUtf8(true);
                         @endphp
                         @foreach($noti as $not)
+                            src="{{$not->banner}}"
                             <li>
                                 <h4>{{$not->title}}</h4>
                                 <div class="image-cell"><a href="{{$not->slug_url}}"><img src="{{$not->banner}}" class="img-responsive animate scale" alt="" height="145px" width="280"></a>

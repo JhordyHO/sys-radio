@@ -29,15 +29,14 @@ class AdminController extends Controller
     public function saveNoticia(Request $request){
        return  $this->RepoAdmin->saveNoticia($request,auth()->user()->id,1);
     }
-    public function NoticiaView($slug){
-        $noti = $this->RepoAdmin->getPostBySlug($slug);
-        return view('WebPage.noticia',compact('noti'));
-    }
+
 
 
     public function getPost(Request $request){
        return $post = $this->RepoAdmin->getPostId($request['id_post']); //1 : CATEGORIA NOTICIAS
-
+    }
+    public function eliminarPost(Request $request){
+        return $this->RepoAdmin->deletePost(1,$request['id_post']);// eliminacion fisica // o eliminacion logica
     }
 
 

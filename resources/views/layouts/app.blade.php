@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/prism.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickadate/pickadate.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/sweetalert2.min.css">
     @yield('header')
 </head>
 <body data-col="2-columns" class=" 2-columns ">
@@ -735,6 +736,7 @@
 <script src="app-assets/js/notification-sidebar.js" type="text/javascript"></script>
 <script src="app-assets/js/customizer.js" type="text/javascript"></script>
 <script src="app-assets/js/components-modal.min.js" type="text/javascript"></script>
+<script src="app-assets/vendors/js/sweetalert2.min.js" type="text/javascript"></script>
 <!-- END APEX JS-->
 <!-- BEGIN PAGE LEVEL JS-->
 <script>

@@ -49,5 +49,8 @@ class AdminRepo
     public function getPostBySlug($url){
       return  $this->Post->whereSlug_url($url)->first();
     }
+    public function deletePost($type,$id_post){
+      return $this->Post->whereIdpost($id_post)->delete();
+    }
 
 }
